@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#img-cabeçalho {
+    width: 150px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header .navbar ul {
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+header .navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+}
+
+header .navbar ul li ul {
+    position: absolute;
+
+    width: 200px;
+    background: #000000;
+    display: none;
+}
+
+header .navbar ul li:focus-within>ul,
+header .navbar ul li:hover>ul {
+    display: initial;
+}
+
+
+body {
+    background-color: black;
+    background-image: url(fundo.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    height: 100vh;
+}
+
+#principal {
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+li a {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+}
+
+
+#titulo-principal {
+    padding-bottom: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+}
+
+
+#principal-texto {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    color: white;
+}
+
+
+p {
+    font-family: "Funnel Sans", sans-serif;
+    text-decoration: none;
+    margin-right: 52%;
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+}
+
+
+
+
+#sagas {
+    margin-top: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.img-sagas {
+    width: 500px;
+}
+
+#new {
+    margin-top: 10%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+
+
+#galeria {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+#slide {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 10%;
+    border: 1px solid gray;
+}
+
+.controle {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #999;
+    background-image: linear-gradient(to bottom, rgb(255, 221, 227), rgb(238, 187, 187));
+    transition: all 100ms ease-out;
+    margin-bottom: 10%;
+}
+
+.controle:hover {
+    cursor: pointer;
+}

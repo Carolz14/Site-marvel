@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Universo Cinematografico Marvel</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    <link rel="stylesheet" href="style.css" >
+  </head>
+
+  <body>
+    <header>
+      <img id="img-cabeçalho" src="icon-header.png" />
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+
+          <li><a href="personagens/index personagens.html">Personagens</a></li>
+
+          <li> <a href="">Sagas</a>
+            <ul>
+                <li> <a href="sagas/index saga infinito.html">Saga do infinito</a></li>
+                <li> <a href="sagas/index saga multiverso.html">Saga do multiverso</a></li>
+               
+            </ul>
+        </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="principal">
+      <section id="principal-texto">
+        <div>
+          <h1 id="titulo-principal">
+            Conheça o Universo Cinematográfico Marvel:
+          </h1>
+          <p>
+            Universo Cinematográfico Marvel, ou simplesmente UCM, é uma franquia
+            criada pela Marvel Studios, formada principalmente por um universo
+            compartilhado entre os filmes e as séries de diversos heróis e
+            vilões.
+          </p>
+          <p>
+            Além do UCM, a Marvel também tem outras produções cinematográficas
+            lançadas, mas que não estão necessariamente interligadas, como a
+            franquia X-Men, Deadpool e Quarteto Fantástico.
+          </p>
+          <p>
+            Até o presente momento, o UCM possui duas sagas, a Saga Do Infinito
+            e a Saga do Multiverso, contendo ao todo cinco fases (com produções
+            lançadas).
+          </p>
+        </div>
+      </section>
+
+      <section id="sagas">
+        <a href="sagas/index saga infinito.html">
+          <img class="img-sagas" src="sagas/imgs-s/saga infinito.png" alt="" />
+        </a>
+        <a href="sagas/index saga multiverso.html"
+          ><img
+            class="img-sagas"
+            src="sagas/imgs-s/saga multiverso.png"
+            alt=""
+          />
+        </a>
+      </section>
+
+      <section id="new">
+        <h1>Proximos lançamentos</h1>
+        <div id="galeria">
+            <button id="anterior" class="controle"><</button> 
+            <img
+            id="slide"
+            src="lançamentos/whatifs3_lob_crd_01.jpg"
+          />
+          <button id="proximo" class="controle">></button>
+        </div>
+      </section>
+
+    
+    </main>
+    <script src="lancamentos.js"></script>
+  </body>
+</html>
