@@ -31,7 +31,7 @@ header .navbar ul {
 }
 
 header .navbar ul li a {
-    font-size: 18px;
+    font-size: 25px;
     padding: 20px;
     color: white;
     display: block;
@@ -80,7 +80,7 @@ body {
 
 li a {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 18px;
+
 }
 
 
@@ -157,8 +157,9 @@ p {
     height: 50px;
     padding: 5px;
     margin: 10px;
+    border-radius: 50%;
     border: 1px solid #999;
-    background-image: linear-gradient(to bottom, rgb(255, 221, 227), rgb(238, 187, 187));
+   background-color: rgba(255, 255, 255, 0.815);
     transition: all 100ms ease-out;
     margin-bottom: 10%;
 }
