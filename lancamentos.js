@@ -1,9 +1,6 @@
-// Faça o exercício da GALERIA de IMAGENS neste arquivo
-// Este arquivo AINDA NÃO está incluído no arquivo HTML
 
-// caminho para onde as imagens estão hospedadas
 const servidorDasImagens = "lançamentos/",
-  // array com o nome das 5 imagens da galeria
+
   nomesDasImagens = [
     "whatifs3_lob_crd_01.jpg",
 
@@ -21,11 +18,9 @@ const servidorDasImagens = "lançamentos/",
     "avengerssecretwars_lob_crd_02.jpg",
   ];
 
-// o índice da imagem sendo mostrada
-// (inicialmente, é a imagem 0: '01-philae-parts.jpg')
 let indiceDaFotoAtual = 0;
 
-// ...COMECE a implementar aqui <--------------------------------------------
+
 
 const slideEl = document.querySelector("#slide");
 const proximoEl = document.querySelector("#proximo");
