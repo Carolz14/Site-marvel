@@ -1,0 +1,92 @@
+#img-cabeçalho {
+    width: 150px;
+}
+
+aside {
+    width: 250px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 0.4px solid white;
+    background-color: rgba(255, 255, 255, 0.058);
+    margin-bottom: 0px;
+}
+
+#sobre{
+    height: 100vh;
+}
+
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 2%;
+}
+li{text-align: center}
+li,
+a {
+
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    
+}
+
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+html, body {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    margin: 0;
+}
+
+#principal {
+    display: flex;
+}
+
+.saga {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img-m{
+    width: 40%;
+    height: 40%;
+}
+
+p{
+    padding-top: 5%;
+    font-family: "Funnel Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.filmes{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.poster{
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10%;
+}
